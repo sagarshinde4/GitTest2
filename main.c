@@ -5,6 +5,10 @@
  */
 int main(void) {
     WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
+
+    /*
+     * more code
+     */
 	
 	return 0;
 }
